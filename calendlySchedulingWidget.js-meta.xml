@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="calendlyLink" label="Calendly Link" type="String" role="inputOnly" />
+            <property name="name" label="Name" type="String" role="inputOnly" />
+            <property name="email" label="Email" type="String" role="inputOnly" />
+            <property name="firstName" label="First Name" type="String" role="inputOnly" />
+            <property name="lastName" label="Last Name" type="String" role="inputOnly" />
+            <property name="location" label="Location" type="String" role="inputOnly" />
+            <property name="guests" label="Guests (CSV)" type="String" role="inputOnly" />
+            <property name="customAnswer1" label="Custom Answer 1" type="String" role="inputOnly" />
+            <property name="customAnswer2" label="Custom Answer 2" type="String" role="inputOnly" />
+            <property name="customAnswer3" label="Custom Answer 3" type="String" role="inputOnly" />
+            <property name="customAnswer4" label="Custom Answer 4" type="String" role="inputOnly" />
+            <property name="customAnswer5" label="Custom Answer 5" type="String" role="inputOnly" />
+            <property name="customAnswer6" label="Custom Answer 6" type="String" role="inputOnly" />
+            <property name="customAnswer7" label="Custom Answer 7" type="String" role="inputOnly" />
+            <property name="customAnswer8" label="Custom Answer 8" type="String" role="inputOnly" />
+            <property name="customAnswer9" label="Custom Answer 9" type="String" role="inputOnly" />
+            <property name="customAnswer10" label="Custom Answer 10" type="String" role="inputOnly" />
+            <property name="utmCampaign" label="UTM Campaign" type="String" role="inputOnly" />
+            <property name="utmSource" label="UTM Source" type="String" role="inputOnly" />
+            <property name="utmMedium" label="UTM Medium" type="String" role="inputOnly" />
+            <property name="utmContent" label="UTM Content" type="String" role="inputOnly" />
+            <property name="utmTerm" label="UTM Term" type="String" role="inputOnly" />
+            <property name="salesforceUuid" label="Salesforce Record Id" type="String" role="inputOnly" />
+            <property name="hideLandingPageDetails" label="Hide Landing Page Details" type="Boolean"
+                role="inputOnly" />
+            <property name="hideEventTypeDetails" label="Hide Event Type Details" type="Boolean"
+                role="inputOnly" />
+            <property name="backgroundColor" label="Background Color (Hex)" type="String" role="inputOnly" />
+            <property name="textColor" label="Text Color (Hex)" type="String" role="inputOnly" />
+            <property name="primaryColor" label="Primary Color (Hex)" type="Boolean" role="inputOnly" />
+            <property name="hideGdprBanner" label="Hide GDPR Banner" type="Boolean" role="inputOnly" />
+            <property name="containerStyles" label="CSS" type="String" role="inputOnly" />
+            <property name="eventScheduled" label="Event scheduled?" type="Boolean"
+                role="outputOnly" />
+            <property name="eventUri" label="Event URI" type="String" role="outputOnly" />
+            <property name="inviteeUri" label="Invitee URI" type="String" role="outputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
